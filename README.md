@@ -4,24 +4,24 @@ A lightweight, high-performance WebGL-based drawing application that allows user
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Interactive Vertex Drawing**: Click on the canvas to place vertices and automatically connect them with line strips.
 - **Continuous Path Drawing**: Click and drag your mouse to create smooth paths and complex shapes.
-- **Custom Color Selection**: Choose from 7 built-in vibrant colors:
-  - 🖤 Black
-  - ❤️ Red
-  - 💛 Yellow
-  - 💚 Green
-  - 💙 Blue
-  - 💜 Magenta
-  - 🩵 Cyan
+- **Custom Color Selection**: Choose from 7 built-in colors:
+  - Black
+  - Red
+  - Yellow
+  - Green
+  - Blue
+  - Magenta
+  - Cyan
 - **Shape Filling**: Close any custom polygon (minimum 3 vertices) and fill it using WebGL's `TRIANGLE_FAN` rendering.
 - **Canvas Clearing**: Reset the canvas to start new drawings instantly.
 
 ---
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```text
 CAD & Drawing/
@@ -39,7 +39,7 @@ CAD & Drawing/
 
 ---
 
-## 💻 How to Run
+## How to Run
 
 > [!NOTE]
 > No build steps or complex installations are required. Everything runs natively in modern web browsers using standard WebGL.
@@ -63,7 +63,7 @@ Using a local server is recommended for web graphics to ensure smooth permission
 
 ---
 
-## 🖱️ How to Use
+## How to Use
 
 1. **Draw Paths**:
    - **Click** anywhere on the grey canvas to draw individual points/vertices connected by lines.
